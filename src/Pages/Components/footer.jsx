@@ -10,7 +10,9 @@ function Footer(){
                         <h2>Food4Cheap</h2>
                     </div>
                     <div class="col">
-                        <PrimaryButton>Log in</PrimaryButton>    
+                        <Link to="/log-in" style={{ textDecoration: "none", color: "inherit" }}>
+                            <PrimaryButton>Log in</PrimaryButton>    
+                        </Link>
                     </div>
                     <div class="col">
                         <h3>Contact us</h3>
@@ -22,7 +24,6 @@ Rick@food4cheap.com</p>
                         <Link to="/about" style={{ textDecoration: "none", color: "inherit" }}>
                             <h3>About us</h3>
                             <p>Somos unos desarrolladores que tuvimos la idea de hacer un proyecto open source para poder recomendar promociones de comida a toda persona.</p>
-                        
                         </Link>
                         
                     </div>
