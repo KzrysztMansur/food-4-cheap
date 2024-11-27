@@ -14,7 +14,8 @@ function Restaurant({restaurant}) {
                 <div className="col-md-8">
                     <div className="card-body" style={styles.cardBody}>
                         <p className="card-text">
-                            {restaurant.RestaurantType}
+                            
+                            Santiago
                         </p>
                         <h5 className="card-title">{restaurant.Name}</h5>
                         <p className="card-text">
@@ -43,7 +44,7 @@ const styles = {
     },
     image: {
         objectFit: "cover", // Ensure the image covers the area nicely
-        height: "100%", // Match the height of the card section
+        maxHeight: "150px", // Match the height of the card section
     },
     cardBody: {
         textAlign: "left", // Align text to the left

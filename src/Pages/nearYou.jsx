@@ -11,12 +11,12 @@ function NearYou (){
         <>
             <Header title="Near you"></Header>
             <div class="section text-center">
-            <div class="">
-                {restaurantOffers.map((item) => (
-                    <Restaurant restaurant={item}/>
-                ))}
+                <div class="">
+                    {restaurantOffers.map((item) => (
+                        <Restaurant restaurant={item}/>
+                    ))}
+                </div>
             </div>
-        </div>
             <Footer/>
         </>
     )

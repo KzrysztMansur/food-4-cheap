@@ -2,27 +2,27 @@
     {
       "id": 1,
       "title": "2x1",
-      "image": "https://via.placeholder.com/150"
+      "image": "assets/icons/2x1_icono.png"
     },
     {
         "id": 2,
       "title": "all you can eat",
-      "image": "https://via.placeholder.com/150"
+      "image": "assets/icons/all_u_can_eat_icono.png"
     },
     {
         "id": 3,
       "title": "weekly",
-      "image": "https://via.placeholder.com/150"
+      "image": "assets/icons/weekly_iconos.png"
     },
     {
         "id": 4,
       "title": "holiday promotion",
-      "image": "https://via.placeholder.com/150"
+      "image": "assets/icons/holiday_icon.png"
     },
     {
         "id": 5,
       "title": "coupons",
-      "image": "https://via.placeholder.com/150"
+      "image": "assets/icons/coupons_icon.png"
     }
 ]
   

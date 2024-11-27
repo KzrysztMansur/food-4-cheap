@@ -2,27 +2,27 @@
     {
         "id": 1,
       "title": "Familiar",
-      "image": "https://via.placeholder.com/150"
+      "image": "assets/icons/familiar_icono.png"
     },
     {
         "id": 2,
       "title": "Dates",
-      "image": "https://via.placeholder.com/150"
+      "image": "assets/icons/date_icono.png"
     },
     {
         "id": 3,
       "title": "Friends",
-      "image": "https://via.placeholder.com/150"
+      "image": "assets/icons/friends_icono.png"
     },
     {
         "id": 4,
       "title": "Coworkers",
-      "image": "https://via.placeholder.com/150"
+      "image": "assets/icons/coworkers_icon.png"
     },
     {
         "id": 5,
       "title": "Students",
-      "image": "https://via.placeholder.com/150"
+      "image": "assets/icons/students_icon.png"
     }
 ]
   

@@ -1,12 +1,22 @@
-// header.js
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Header({ title, showInput, onInputChange }) {
+  const navigate = useNavigate(); // Hook to navigate to other routes
+
+  // Function to handle 'Enter' key press for redirect
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();  // Prevent the default form submission behavior
+      // Navigate to the home page or any other page
+      navigate('/near-you');  // Change '/home' to the desired route
+    }
+  };
+
   return (
-    <header style={styles.header} class="p-3 mb-5">
+    <header style={styles.header} className="p-3 mb-5">
       <div style={styles.contentWrapper}>
-        <Link to="/" style={{ textDecoration: "none"}}>
+        <Link to="/" style={{ textDecoration: "none" }}>
           <h1 style={styles.title}>{title}</h1>
         </Link>
         
@@ -15,6 +25,7 @@ function Header({ title, showInput, onInputChange }) {
             type="text" 
             placeholder="Search..." 
             onChange={onInputChange} 
+            onKeyDown={handleKeyDown} // Trigger handleKeyDown when 'Enter' is pressed
             style={styles.input} 
           />
         )}

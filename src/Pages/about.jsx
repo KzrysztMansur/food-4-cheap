@@ -16,7 +16,7 @@ function About(){
                     </p>
                     </div>
                     <div class="col">
-                    <img src="###" alt="not found" />
+                    <img src="assets/save-us.png" alt="not found" style={ styles.image}/>
                     </div>
                 </div >
                 <h2>Our mission</h2>
@@ -27,6 +27,12 @@ function About(){
         <Footer/>
     </>
     );
+}
+
+const styles = {
+    image : {
+        maxWidth: "90vh"
+    }
 }
 
 export default About

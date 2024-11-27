@@ -8,9 +8,7 @@ import offers from "../jsons/offers.json";
 
 
 function Home(){
-    console.log("Restaurant Types:", typesOfRestaurants);
-    console.log("Offers:", offers);
-    
+
     return (
     <>
         <Header title="Food4Cheap" showInput="true"></Header>

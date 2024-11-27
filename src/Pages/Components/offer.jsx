@@ -21,8 +21,7 @@ const styles = {
   },
   image: {
     width: "100%", // Full width image
-    height: "75px", // Fixed height for consistency
-    objectFit: "cover", // Ensure the image is cropped nicely
+    maxHeight: "100px", // Fixed height for consistency
   },
   cardBody: {
     textAlign: "center", // Center align text
