@@ -4,7 +4,7 @@ import Footer from "./Components/footer";
 function ByType(){
     return (
     <>
-        <Header title="Familiar"></Header>
+        <Header title="2x1"></Header>
         <p>BY TYPE</p>
         <Footer></Footer>
     </>

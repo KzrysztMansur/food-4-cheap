@@ -1,12 +1,14 @@
 import Header from "./Components/header";
+import Footer from "./Components/footer";
 
-var restaurants = ["McRonald's", "Pub Jerryngton", "Burger Queen"]
+var restaurants = ["Family", "Students", "Coworkers"]
 var restaurant = restaurants[0];
 
 function ByRestaurant(){
     return (
     <>
         <Header title={restaurant}></Header>
+        <Footer/>
     </>
     );
 }

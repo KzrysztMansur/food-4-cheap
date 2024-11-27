@@ -14,10 +14,10 @@ function Home(){
     return (
     <>
         <Header title="Food4Cheap" showInput="true"></Header>
-        <Section title="Types of restaurants" listOfOptions={typesOfRestaurants} />
+        <Section title="Types of restaurants" listOfOptions={typesOfRestaurants} linkTo="/by-restaurant"/>
         
         <hr/>
-        <Section title="Types of offers" listOfOptions={offers} />
+        <Section title="Types of offers" listOfOptions={offers} linkTo="/by-type"/>
         <hr/>
         <section>
         

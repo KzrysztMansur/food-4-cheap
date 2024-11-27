@@ -4,7 +4,7 @@ function Offer ({ title, image }) {
     <div className="card mb-3 offer p-3 border-0" style={ styles.card }>
       <img src={image} className="card-img-top" alt={title} style={styles.image}/>
       <div className="card-body">
-        <h5 className="card-title p-0">{title}</h5>
+        <h5 className="card-title pt-3">{title}</h5>
       </div>
     </div>
   );

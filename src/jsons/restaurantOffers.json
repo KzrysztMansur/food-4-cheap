@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "Name": "McDonalds",
+    "Description": "Fast food restaurant specializing in burgers and fries",
+    "Image": "assets/logos/McDonalds-logo.png",
+    
+    "OpenHour": 6,
+    "CloseHour": 24,
+    "RestaurantType": [1, 3, 5],
+    "OfferType": [1, 3, 5]
+  },
+  {
+    "id": 2,
+    "Name": "Burger King",
+    "Description": "Home of the Whopper",
+    "Image": "./assets/burger-king-logo.png",
+    "OpenHour": 7,
+    "CloseHour": 23,
+    "RestaurantType": [1, 3, 5],
+    "OfferType": [1, 2, 5]
+  },
+  {
+    "id": 3,
+    "Name": "Starbucks",
+    "Description": "Premium coffee shop and bakery",
+    "Image": "./assets/starbucks-logo.png",
+    "OpenHour": 6,
+    "CloseHour": 22,
+    "RestaurantType": [2, 3, 4],
+    "OfferType": [3, 4, 5]
+  },
+  {
+    "id": 4,
+    "Name": "KFC",
+    "Description": "Kentucky Fried Chicken restaurant",
+    "Image": "../assets/kfc-logo.png",
+    "OpenHour": 11,
+    "CloseHour": 23,
+    "RestaurantType": [1, 3, 5],
+    "OfferType": [1, 2, 5]
+  },
+  {
+    "id": 5,
+    "Name": "Subway",
+    "Description": "Fresh and healthy sandwiches",
+    "Image": "../assets/subway.png",
+    "OpenHour": 8,
+    "CloseHour": 22,
+    "RestaurantType": [3, 4, 5],
+    "OfferType": [2, 3, 5]
+  },
+  {
+    "id": 6,
+    "Name": "Buffalo Wild Wings",
+    "Description": "Sports bar and wing restaurant",
+    "Image": "./assets/Buffalo.png",
+    "OpenHour": 11,
+    "ClosHhour": 24,
+    "RestaurantType": [2, 3, 4],
+    "OfferType": [1, 2, 4]
+  },
+  {
+    "id": 7,
+    "Name": "IHOP",
+    "Description": "International House of Pancakes",
+    "Image": "./assets/ihop-logo.png",
+    "OpenHour": 7,
+    "CloseHour": 22,
+    "RestaurantType": [1, 2, 3],
+    "OfferType": [1, 3, 5]
+  },
+  {
+    "id": 8,
+    "Name": "Carls Jr",
+    "Description": "Premium burger restaurant",
+    "Image": "./assets/carls-jr-logo.png",
+    "OpenHour": 6,
+    "CloseHour": 23,
+    "RestaurantType": [1, 3, 5],
+    "PromotionType": [1, 2, 5]
+  },
+  {
+    "id": 9,
+    "Name": "El Pollo Loco",
+    "Description": "Fresh Mexican grilled chicken",
+    "Image": "./assets/El-Pollo-Loco-Logo.png",
+    "OpenHour": 10,
+    "CloseHour": 22,
+    "RestaurantType": [1, 3, 5],
+    "OfferType": [2, 3, 5]
+  },
+  {
+    "id": 10,
+    "Name": "Krispy Kreme",
+    "Description": "Fresh doughnuts and coffee",
+    "Image": "./assets/Krispy_Kreme_logo.png",
+    "OpenHour": 6,
+    "CloseHour": 22,
+    "RestaurantType": [1, 3, 5],
+    "OfferType": [1, 4, 5]
+  },
+  {
+    "id": 11,
+    "Name": "Little Caesars",
+    "Description": "Hot-N-Ready pizza",
+    "Image": "./assets/little-caesars-logo.png",
+    "OpenHour": 11,
+    "CloseHour": 23,
+    "RestaurantType": [1, 3, 5],
+    "OfferType": [1, 2, 5]
+  },
+  {
+    "id": 12,
+    "Name": "PF Changs",
+    "Description": "Asian fusion restaurant",
+    "Image": "./assets/pf-changs-logo.png",
+    "OpenHour": 11,
+    "CloseHour": 22,
+    "RestaurantType": [2, 3, 4],
+    "OfferType": [2, 4, 5]
+  },
+  {
+    "id": 13,
+    "Name": "Super Salads",
+    "Description": "Fresh and healthy salads",
+    "Image": "./assets/super-salads-logo.png",
+    "OpenHour": 8,
+    "CloseHour": 21,
+    "RestaurantType": [3, 4, 5],
+    "OfferType": [3, 4, 5]
+  },
+  {
+    "id": 14,
+    "Name": "Gorditas Doña Tota",
+    "Description": "Traditional Mexican gorditas",
+    "Image": "./assets/gorditas-dona-tota-logo.png",
+    "OpenHour": 8,
+    "CloseHour": 22,
+    "RestaurantType": [1, 3, 5],
+    "OfferType": [1, 2, 5]
+  },
+  {
+    "id": 15,
+    "Name": "Nikkori",
+    "Description": "Japanese sushi restaurant",
+    "Image": "./assets/nikkori-logo.png",
+    "OpenHour": 12,
+    "CloseHour": 23,
+    "RestaurantType": [2, 3, 4],
+    "OfferType": [2, 4, 5]
+  }
+]
